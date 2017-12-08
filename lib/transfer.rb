@@ -1,9 +1,9 @@
 class Transfer
   # your code here
-  attr_reader :name
+  attr_reader :sender
   attr_accessor :account, :amount
-  
-  def initialize(name, account, amount)
-    @name, @bank_account, @amount = name, account, amount
+
+  def initialize(sender, account, amount)
+    @sender, @bank_account, @amount = name, account, amount
   end
 end
